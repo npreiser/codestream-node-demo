@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-
+// hotmail user added comments here. 
 
 router.get('/forcerr', function(req, res, next) {
   res.status(500).send("slakdsjslfkj")
