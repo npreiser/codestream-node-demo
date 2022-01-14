@@ -29,6 +29,23 @@ router.get('/forcestackerr', function(req, res, next) {
 });
 
 
+router.get('/force404', function(req, res, next) {
+
+  cm_mod1.customfunc2(34);
+
+  res.status(505).send("slakdsjslfkj")
+});
+
+
+router.get('/forcevalerror', function(req, res, next) {
+
+  cm_mod1.customfunc3(34);
+
+  res.status(505).send("slakdsjslfkj")
+});
+
+
+
 
 
 
